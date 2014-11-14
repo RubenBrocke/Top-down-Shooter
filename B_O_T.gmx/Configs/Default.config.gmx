@@ -77,7 +77,11 @@
     <option_freeze>false</option_freeze>
     <option_frequency>0</option_frequency>
     <option_frontimage>nil</option_frontimage>
+<<<<<<< HEAD
     <option_fullscreen>True</option_fullscreen>
+=======
+    <option_fullscreen>False</option_fullscreen>
+>>>>>>> FETCH_HEAD
     <option_gameguid>{A7AAA9A7-2C4F-481C-9F6E-08E891DB721E}</option_gameguid>
     <option_gameid>273434629</option_gameid>
     <option_haptic_effects>0</option_haptic_effects>
@@ -244,7 +248,11 @@
     <option_savekey>true</option_savekey>
     <option_scale>-1</option_scale>
     <option_scaleprogress>true</option_scaleprogress>
+<<<<<<< HEAD
     <option_sci_UseSCI>0</option_sci_UseSCI>
+=======
+    <option_sci_UseSCI>false</option_sci_UseSCI>
+>>>>>>> FETCH_HEAD
     <option_screenkey>True</option_screenkey>
     <option_screenshotkey>true</option_screenshotkey>
     <option_shortcircuit>True</option_shortcircuit>
