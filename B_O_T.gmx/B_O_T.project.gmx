@@ -12,6 +12,9 @@
       <sprite>sprites\spr_rocket</sprite>
     </sprites>
     <sprite>sprites\spr_healthbar</sprite>
+    <sprite>sprites\spr_gun</sprite>
+    <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_mask</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -25,6 +28,8 @@
       <object>objects\obj_gui_proximity</object>
     </objects>
     <object>objects\obj_healthbar</object>
+    <object>objects\obj_gun</object>
+    <object>objects\obj_wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
