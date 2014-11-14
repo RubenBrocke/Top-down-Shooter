@@ -1,0 +1,21 @@
+	B.O.T
+Blast onto technology
+
+Top-down
+Third-person
+Shooter
+Multiplayer
+
+Ideas:
+Rockets that follow player
+bombs that explode in an X shape
+Mines that explode when you get near
+Bouncing bullets
+
+
+
+
+
+
+
+
