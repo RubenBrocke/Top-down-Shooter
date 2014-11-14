@@ -15,6 +15,10 @@
     <sprite>sprites\spr_gun</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_mask</sprite>
+    <sprite>sprites\spr_rocketlancher</sprite>
+    <sprite>sprites\spr_rocket</sprite>
+    <sprite>sprites\spr_button_gun</sprite>
+    <sprite>sprites\spr_button_rocketlauncher</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -28,12 +32,20 @@
     </objects>
     <objects name="GUI">
       <object>objects\obj_gui_proximity</object>
+      <object>objects\obj_healthbar</object>
     </objects>
-    <object>objects\obj_healthbar</object>
-    <object>objects\obj_gun</object>
+    <objects name="Weapons">
+      <object>objects\obj_gun</object>
+      <object>objects\obj_rocketlauncher</object>
+    </objects>
     <object>objects\obj_wall</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_rocket</object>
+    <object>objects\obj_button_gun</object>
+    <object>objects\obj_button_rocketlauncher</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_weapons</room>
     <room>rooms\room1</room>
   </rooms>
   <help>
