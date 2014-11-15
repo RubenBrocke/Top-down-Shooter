@@ -32,6 +32,8 @@ alarm[0] = 45
 inrange = false
 shooting  = 0
 
+move_speed = 3;
+
 </string>
           </argument>
         </arguments>
@@ -139,10 +141,10 @@ vspeed = dy
 
 dist_player = point_distance(x,y,obj_grean.x,obj_grean.y)
 
-if dist_player &lt; 1024 {
+if (dist_player &lt; 1024 and dist_player &gt; 32){
 if !collision_line(x,y,obj_grean.x,obj_grean.y,obj_wall,false,true){
 shooting += 1
-move_towards_point(obj_grean.x,obj_grean.y,3)
+move_towards_point(obj_grean.x,obj_grean.y,move_speed)
 
 if shooting = 10{
 player_dir = point_direction(x,y,obj_grean.x,obj_grean.y)

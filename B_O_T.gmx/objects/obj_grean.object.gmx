@@ -36,6 +36,8 @@ hp = 100
 proximity_ammo = 3
 shooting  = 0
 running  = false
+
+
 </string>
           </argument>
         </arguments>
@@ -397,7 +399,7 @@ rocketlauncher = instance_create(x+spawn_x,y+spawn_y,obj_rocket)
 
 //move rocket
 with(rocketlauncher){
-motion_set(other.mouse_dir,6)
+motion_set(other.mouse_dir,rocket_speed)
 image_angle = other.mouse_dir
 }
 shooting = 0

@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="obj_grean" xview="0" yview="0" wview="320" hview="240" xport="0" yport="0" wport="320" hport="240" hborder="320" vborder="240" hspeed="-1" vspeed="-1"/>
     <view visible="-1" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -510,7 +510,6 @@
     <tile bgName="background0" x="896" y="672" w="32" h="32" xo="0" yo="0" id="10000309" name="inst_E7B15B88" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background0" x="896" y="704" w="32" h="32" xo="0" yo="0" id="10000310" name="inst_EC07E34C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background0" x="896" y="736" w="32" h="32" xo="0" yo="0" id="10000311" name="inst_CB0E506D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="background0" x="896" y="768" w="32" h="32" xo="0" yo="0" id="10000312" name="inst_C15CFE11" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background0" x="896" y="736" w="32" h="32" xo="0" yo="0" id="10000313" name="inst_8FEC040A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background0" x="896" y="704" w="32" h="32" xo="0" yo="0" id="10000314" name="inst_93930711" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background0" x="864" y="704" w="32" h="32" xo="0" yo="0" id="10000315" name="inst_99C4377F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

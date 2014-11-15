@@ -25,6 +25,9 @@
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\TO_DO_LIST.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_grean</object>
     <objects name="Attacks">
