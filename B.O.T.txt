@@ -7,10 +7,17 @@ Shooter
 Multiplayer
 
 Ideas:
-Rockets that follow player
-bombs that explode in an X shape
-Mines that explode when you get near
-Bouncing bullets
+ - Rockets that follow player
+ - bombs that explode in an X shape
+ X Mines that explode when you get near
+ X Bouncing bullets
+ - Black hole creater (gravity pulls players towards center)
+ - Laser that instantly hits anything in it's path
+ - Rapid-fire gun
+ - Flame shot (slow + powerful)
+ - X-ray gun (shoot through walls)
+ - Toxic bullet (opponent loses health for some time after being hit)
+ - Sleep bullet (opponent walks slower for some time)
 
 
 
