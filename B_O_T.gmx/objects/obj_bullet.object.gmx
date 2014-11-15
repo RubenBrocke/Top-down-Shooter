@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>alarm[0] = 60 + random(32)
+creator = 0
 </string>
           </argument>
         </arguments>

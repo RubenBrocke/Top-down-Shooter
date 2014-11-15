@@ -19,6 +19,7 @@
     <sprite>sprites\spr_rocket</sprite>
     <sprite>sprites\spr_button_gun</sprite>
     <sprite>sprites\spr_button_rocketlauncher</sprite>
+    <sprite>sprites\spr_enemy</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>

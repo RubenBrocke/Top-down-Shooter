@@ -96,6 +96,10 @@ armed = false
 obj_grean.hp -= 64 - dist_player
 }
 instance_destroy()
+if dist_enemy &lt; 64{
+obj_enemy_gun.hp -= 64 - dist_enemy
+}
+instance_destroy()
 </string>
           </argument>
         </arguments>
@@ -142,8 +146,12 @@ instance_destroy()
           <argument>
             <kind>1</kind>
             <string>dist_player = point_distance(x,y,obj_grean.x,obj_grean.y)
-
+dist_enemy = point_distance(x,y,obj_enemy_gun.x,obj_enemy_gun.y)
 if dist_player &lt; 64 and active = true and armed = false{
+alarm[1] = 30
+armed = true
+}
+if dist_enemy &lt; 64 and active = true and armed = false{
 alarm[1] = 30
 armed = true
 }
