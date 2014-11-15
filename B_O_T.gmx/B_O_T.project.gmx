@@ -29,6 +29,7 @@
     <objects name="Attacks">
       <object>objects\obj_bullet</object>
       <object>objects\obj_proximity</object>
+      <object>objects\obj_rocket</object>
     </objects>
     <objects name="GUI">
       <object>objects\obj_gui_proximity</object>
@@ -39,13 +40,15 @@
       <object>objects\obj_rocketlauncher</object>
     </objects>
     <object>objects\obj_wall</object>
-    <object>objects\obj_enemy</object>
-    <object>objects\obj_rocket</object>
-    <object>objects\obj_button_gun</object>
-    <object>objects\obj_button_rocketlauncher</object>
+    <object>objects\obj_enemy_gun</object>
+    <objects name="Buttons">
+      <object>objects\obj_button_gun</object>
+      <object>objects\obj_button_rocketlauncher</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_weapons</room>
+    <room>rooms\rm_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
