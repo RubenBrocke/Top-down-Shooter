@@ -26,6 +26,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\ts_industrial</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -33,6 +34,11 @@
   </scripts>
   <objects name="objects">
     <object>objects\obj_grean</object>
+    <objects name="Parents">
+      <object>objects\obj_projectile</object>
+      <object>objects\obj_player</object>
+      <object>objects\obj_enemy</object>
+    </objects>
     <objects name="Attacks">
       <object>objects\obj_bullet</object>
       <object>objects\obj_proximity</object>
