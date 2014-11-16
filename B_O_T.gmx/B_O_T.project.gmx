@@ -19,7 +19,10 @@
     <sprite>sprites\spr_rocket</sprite>
     <sprite>sprites\spr_button_gun</sprite>
     <sprite>sprites\spr_button_rocketlauncher</sprite>
+    <sprite>sprites\spr_button_firegun</sprite>
     <sprite>sprites\spr_enemy</sprite>
+    <sprite>sprites\spr_firegun</sprite>
+    <sprite>sprites\spr_firebullet</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -42,13 +45,16 @@
     <objects name="Weapons">
       <object>objects\obj_gun</object>
       <object>objects\obj_rocketlauncher</object>
+      <object>objects\obj_firegun</object>
     </objects>
     <object>objects\obj_wall</object>
     <object>objects\obj_enemy_gun</object>
     <objects name="Buttons">
       <object>objects\obj_button_gun</object>
+      <object>objects\obj_button_firegun</object>
       <object>objects\obj_button_rocketlauncher</object>
     </objects>
+    <object>objects\obj_firebullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_weapons</room>

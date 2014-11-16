@@ -53,6 +53,7 @@
   <instances>
     <instance objName="obj_button_gun" x="64" y="64" name="inst_9AD48EDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button_rocketlauncher" x="256" y="64" name="inst_0550736F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_button_firegun" x="64" y="192" name="inst_C04BDB51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background0" x="0" y="0" w="32" h="32" xo="0" yo="0" id="10000001" name="inst_8A742922" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

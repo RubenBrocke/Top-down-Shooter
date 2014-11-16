@@ -69,7 +69,7 @@ if (!place_free(x,y)){
           </argument>
           <argument>
             <kind>13</kind>
-            <string>1349107</string>
+            <string>33023</string>
           </argument>
           <argument>
             <kind>4</kind>
