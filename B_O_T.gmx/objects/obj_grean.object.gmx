@@ -104,11 +104,11 @@ vspeed = 0
 //running
 
 if keyboard_check_pressed(vk_shift){
-move_speed += 2
+move_speed += 3
 running = true
 }
 if keyboard_check_released(vk_shift){
-move_speed -= 2
+move_speed -= 3
 running = false
 }
 
@@ -391,7 +391,7 @@ if global.weapon = obj_rocketlauncher{
 if running = false{
 shooting += 1
 
-if shooting = 60{
+if shooting = 30{
 mouse_dir = point_direction(x,y,mouse_x,mouse_y)
 spawn_x = lengthdir_x(16,mouse_dir)
 spawn_y = lengthdir_y(16,mouse_dir)

@@ -91,7 +91,9 @@ rocket_speed = 3;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>gravity = 2
+            <string>//move to enemy
+
+gravity = 1
 gravity_direction =  point_direction(x,y,instance_nearest(x,y,obj_enemy_gun).x,instance_nearest(x,y,obj_enemy_gun).y)
 </string>
           </argument>
