@@ -340,7 +340,7 @@ hp-= 2
           <argument>
             <kind>1</kind>
             <string>if other.creator != object_index{
-hp-= 2
+hp-= 0.5
 }
 </string>
           </argument>

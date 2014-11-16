@@ -37,6 +37,7 @@
       <object>objects\obj_bullet</object>
       <object>objects\obj_proximity</object>
       <object>objects\obj_rocket</object>
+      <object>objects\obj_firebullet</object>
     </objects>
     <objects name="GUI">
       <object>objects\obj_gui_proximity</object>
@@ -54,7 +55,6 @@
       <object>objects\obj_button_firegun</object>
       <object>objects\obj_button_rocketlauncher</object>
     </objects>
-    <object>objects\obj_firebullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_weapons</room>
